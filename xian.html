@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>About Me</title>
+
+<style>
+
+body{
+    margin:0;
+    font-family: Arial, sans-serif;
+    background:#f5f5f5;
+}
+
+/* Main container */
+.container{
+    display:flex;
+    height:100vh;
+}
+
+/* Left side design */
+.sidebar{
+    width:30%;
+    background:#2c3e50;
+    color:white;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    padding:20px;
+}
+
+/* Profile picture */
+.profile{
+    width:160px;
+    height:160px;
+    border-radius:50%;
+    object-fit:cover;
+    border:4px solid white;
+    margin-bottom:15px;
+}
+
+/* Right side */
+.content{
+    width:70%;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    padding:50px;
+}
+
+/* Info box */
+.box{
+    background:white;
+    padding:25px;
+    border-radius:10px;
+    box-shadow:0px 0px 10px rgba(0,0,0,0.1);
+}
+
+h1{
+    margin:10px 0;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- Left Side -->
+    <div class="sidebar">
+
+        <img src="profile.jpg" class="profile">
+
+        <h1>Xian Zildjian A. Palacpac</h1>
+        <p>16 Years Old</p>
+        <p>Grade 11 STEM</p>
+
+    </div>
+
+    <!-- Right Side -->
+    <div class="content">
+
+        <div class="box">
+            <h2>About Me</h2>
+
+            <p>
+            My name is Xian Zildjian A. Palacpac. I am a Grade 11 STEM student.
+            I enjoy learning about the world and exploring different topics that
+            help expand my knowledge. My goal is to continue improving my skills
+            and use what I learn to help others in the future.
+            </p>
+
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
